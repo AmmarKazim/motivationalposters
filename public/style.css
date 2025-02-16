@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+
+}
+
+.container {
+width: 50%;
+margin-top: 100px;
+margin-inline: auto;;
+}
+
+.poster {
+  text-align: center;
+  padding: 25px;
+  background-color: rgb(46, 50, 53);
+}
+
+img {
+  width: 100%;
+}
+
+
+h1{
+  text-transform: uppercase;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 75%;
+    margin-top: 75px;
+    margin-inline: auto;;
+    }
+}
